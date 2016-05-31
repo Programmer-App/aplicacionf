@@ -1,0 +1,658 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplicacion TURISMO EN ATLIXCO</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasappfinal.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('imagenes/1.2.png','imagenes/2.2.png','imagenes/3.2.png','imagenes/3.5.png','imagenes/3.11.png','imagenes/3.18.png','imagenes/4.2.png','imagenes/5.2.png','imagenes/6.2.png')">
+<div data-role="page" id="Principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>ATLIXCO, PUEBLO MÁGICO.</h1>
+   </div>
+<!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:100%;height:250px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+<!--inicio -->
+   <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Antes de comenzar mira éste video.</h1>
+         <div>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/JDv9NzSg_K0" frameborder="0" allowfullscreen></iframe>
+         </div>
+    </div>
+    </div>
+<!--inicio -->
+
+<div>
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Datos.</h2>
+    <p>Toponimia,, Ubicación y nombres con los que se conoce.</p>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Tradiciones.</h2>
+      <p>Huey Atlixcáyotl, Atlixcayotontli, Villa Iluminada,etc.</p>
+      </a>
+    </li>
+   <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Gastronomía.</h2>
+      <p>Comida,Antojitos y Postres Típicos de Atlixco.</p>
+      </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Atractivos Turísticos.</h2>
+      <p>Arquitectura.</p>
+      </a>
+    </li>
+   <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Clima</h2>
+      <p>Transición entre climas.</p>
+      </a>
+    </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Declaración de Pueblo Mágico</h2>
+      <p>Año en que recibió la categoría de Pueblo Mágico .</p>
+      </a>
+    </li>
+  </ul>
+  </div>
+    
+    <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Para más información presione aquí.</h1>
+         <div>
+       <!-- Start WOWSlider.com -->
+<iframe src="http://www.corazondepuebla.com.mx/atlixco.html" style="width:100%;height:100%;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+         </div>
+    <div> </div>
+    </div>
+    </div>
+
+<div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Datos del autor que elaboró ésta APP.</h1>
+         <div align="center">
+ <img src="imagenes/7.png" width="100%" height="40%">
+         </div>
+    <div> </div>
+    </div>
+    </div>
+
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+     <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+   <div>
+      <h4>¿Qué estás esperando?, ¡VISITA ATLIXCO!</h4>
+     <h4>Ramírez Rojas Javier</h4>
+   </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"data-back-btn-theme="a">
+    <h1>DATOS GENERALES</h1>
+    </div>
+   <div data-role="content" align="justify">
+    <div>
+    <!--inicio-->
+    <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Toponimia</h1>
+         <div>
+         <h2>Atlixco</h2>	
+<p>Atlixco, nombre azteca formado de:</p>
+<p><b>Atl:</b> Agua.</p>
+<p><b>Ixtla:</b> llanura, valle (de Ixtli, cara, superficie).</p>
+<p><b>Tla:</b> abundancia.</p>
+<p><b>Y de la final co:</b> que indica en.</p> 
+<p><b><i>El conjunto forma la palabra Atl-ix-co que significa "Agua en el valle o en la superficie del suelo".</i></b></p>
+         </div>
+    <div>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image33','','imagenes/1.2.png',1)"><img src="imagenes/1.1.png" width="100%" height="40%" id="Image33"></a> </div>
+    </div>
+    </div>
+    <!--final-->
+     <!--inicio-->
+    <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Ubicación</h1>
+         <div>
+<p>Municipio que se localiza al suroeste de la ciudad de Puebla. Tiene una superficie de 293.01 kilómetros cuadrados y se encuentra a una altitud promedio de 1840 msnm.</p>
+         </div>
+    <div>
+   <img src="imagenes/1.3.png" width="100%" height="40%"> </div>
+    </div>
+    </div>
+    <!--final-->
+    <!--inicio-->
+    <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Nombres con los que se conoce</h1>
+         <div>
+<p>Se le llama también <b><i>Heroica Atlixco</i></b> debido a la Batalla del 4 de mayo de 1862. Es conocido por tener el mejor clima del mundo y su actividad florística comercial y turística, por lo cual también se le conoce como <b><i>Atlixco de las Flores.</i></b></p>
+         </div>
+    <div>
+       <img src="imagenes/1.4.png" width="100%" height="40%"> </div>
+    </div>
+    </div>
+    <!--final-->
+    </div>
+    </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+   <div>
+      <h4>¿Qué estás esperando?, ¡VISITA ATLIXCO!</h4>
+     <h4>Ramírez Rojas Javier</h4>
+   </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"data-back-btn-theme="a">
+    <h1>TRADICIONES</h1>
+    </div>
+   <div data-role="content" align="justify">
+    <div>
+       <!--inicio-->
+    <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Huey Atlixcáyotl</h1>
+         <div>
+<p>Es el nombre de un festival cultural que se realiza en el cerro de San Miguel, de formación reciente (1965) pero compuesto de música, cantos, danzas y rituales, en gran parte indígenas, algunos de mucha antigüedad, en la parte conocida como Netotiloyan(Cerro de la danza), el último domingo de septiembre de cada año.</p> 
+<p>El nombre de este festejo que se celebra en torno a la fiesta de San Miguel Arcángel es de origen náhuatl y quiere decir Gran Fiesta de Atlixco. Pero traducido por las raíces de la lengua náhuatl el sufijo "Yotl" más Atlixco se traduce como "Atlixquedad".</p>
+         </div>
+    <div>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image33','','imagenes/2.2.png',1)"><img src="imagenes/2.1.png" width="100%" height="40%" id="Image"></a> </div>
+    </div>
+    </div>
+    <!--final-->
+      <!--inicio-->
+    <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Atlixcayotontli</h1>
+         <div>
+<p>La fiesta de la familia atlixquense. Se realiza el segundo domingo del mes de septiembre.</p>
+<p>Reúne grupos de danza y baile, inicia con Bailes de Convite y concluyen con el Rito del Palo Volador.</p>
+         </div>
+    <div>
+       <img src="imagenes/2.3.png" width="100%" height="40%"> </div>
+    </div>
+    </div>
+    <!--final-->
+     <!--inicio-->
+    <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Desfile de Calaveras</h1>
+         <div>
+<p>El 02 de Noviembre la Ciudad de Atlixco se viste de calaveras para recorrer las principales calles en un festivo y colorido desfile que busca preservar y rescatar nuestras tradiciones populares.</p>
+<p>Los jóvenes salen recorriendo las principales calles de la ciudad donde ataviados de trajes típicos o cualquier otra vestimenta llevan sus caras pintadas de calaveras o  con mascara de alucivas a dicho personaje mitológico de México.</p>
+<p>El desfile tiene la finalidad de respetar y conservar la tradición del día de muertos y dejar a un lado el famoso “Halloween” o “Noche de brujas”.</p>
+         </div>
+    <div>
+       <img src="imagenes/2.6.png" width="100%" height="40%"> </div>
+    </div>
+    </div>
+    <!--final-->
+     <!--inicio-->
+    <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Villa Iluminada</h1>
+         <div>
+<p>es una ruta urbana que resalta la belleza arquitectónica de la ciudad de Atlixco, embelleciéndola con luces coloridas de variantes tonos.</p>
+<p>Durante más de 40 días. Las calles formarán un circuito de luz y color, vestidas de figuras y escenas alusivas a la navidad, las tradiciones y la identidad de la ciudad.
+</p>
+         </div>
+    <div>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image33','','imagenes/2.5.png',0)"><img src="imagenes/2.4.png" width="100%" height="30%" id="Image2"></a>  </div>
+    </div>
+    </div>
+    <!--final-->
+      <!--inicio-->
+    <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Fiestas de Reyes</h1>
+         <div>
+<p>Las Fiestas de Reyes es una actividad que nació en Atlixco para el país. Su meta cumplida es que ninguno de los 40 mil niños de escasos recursos que tenemos en el municipio se quede sin recibir un juguete. </p>
+<p>Este festival lleno de magia, música, colorido y fuegos piroctécnicos se realiza en la Plazuela de la Danza del Cerro de San Miguel, donde llegado el momento los pequeñitos lanzan sus globos al cielo con las cartas que dirigen a los Reyes Magos.</p>
+<p>Voluntarios y empresas preparan con anticipación la llegada de los Reyes quienes recorren las principales calles de la ciudad acompañados de payasos, personajes animados y carros alegóricos perfectamente iluminados que aluden a temas infantiles.</p>
+         </div>
+    <div>
+      <img src="imagenes/2.7.png" width="100%" height="40%"> </div>
+    </div>
+    </div>
+    <!--final-->
+    </div>
+    </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+     <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+   <div>
+      <h4>¿Qué estás esperando?, ¡VISITA ATLIXCO!</h4>
+     <h4>Ramírez Rojas Javier</h4>
+   </div>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"data-back-btn-theme="a">
+   <h1>GASTRONOMÍA</h1>
+    </div>
+   <div data-role="content" align="justify">
+    <div>
+      <!--inicio colapsible-->
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Comida Típica.</h1>
+        <div>
+          <!--nicio -->
+          <div data-role="main" class="ui-content">
+            <div data-role="collapsible" data-content-theme="false">
+              <h1>Cecina.</h1>
+              <div>
+  <p>Elaborado por cecineros del municipio de manera artesanal este platillo es básico dentro de la cocina atlixquense, acompañado de sus guarniciones de queso, aguacate y nopales.</p>
+              </div>
+              <div> 
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image32','','imagenes/3.2.png',1)"><img src="imagenes/3.1.png" width="100%" height="40%" id="Image32"></a></div>
+            </div>
+          </div>
+          <!--final-->       
+       <!--inicio-->
+       <div data-role="main" class="ui-content">
+         <div data-role="collapsible" data-content-theme="false">
+           <h1>Enchiladas.</h1>
+         <div>
+         <p>Elaborado por cecineros del municipio de manera artesanal este platillo es básico dentro de la cocina atlixquense, acompañado de sus guarniciones de queso, aguacate y nopales.</p>
+         </div>
+    <div>
+      <img src="imagenes/3.3.png" width="100%" height="40%"> </div>
+    </div>
+    </div>
+  <!--final-->
+    </div>
+        <div></div>
+      </div>
+    </div>
+   <!--final colapsible-->  
+  <!--inicio colapsible-->
+  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Otras comidas destacables.</h1>
+         <div>
+  <!--inicio-->
+  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Mole Poblano.</h1>
+         <div>
+         <p>Delicioso mole dulce representativo de Puebla, está hecho a base de varios chiles y condimentos, agregando una caricia de chocolate. Su consistencia espesa se acompaña comúnmente de una pieza de guajolote o pollo y se agrada a la vista decorándolo con ajonjolí tostado.</p>
+         </div>
+    <div>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image32','','imagenes/3.5.png',1)"><img src="imagenes/3.4.png" width="100%" height="40%" id="Image3"></a> </div>
+    </div>
+    </div>
+  <!--final-->  
+  <!--nicio-->
+  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Mole de Olla.</h1>
+         <div>
+         <p>Suculento caldo hecho a base de carne de res, sazonado en salsa de jitomate con chile costeño y perfumado con ramas de cilantro. Este platillo se acompaña de ejotes y calabacitas para servirse caliente en un plato al que se le agrega como toque final el jugo de limón al gusto.</p>
+         </div>
+    <div>
+      <img src="imagenes/3.6.png" width="100%" height="40%"> </div>
+    </div>
+    </div>
+  <!--final-->  
+      <!--nicio-->
+  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Mole Verde o Pipián Verde</h1>
+         <div>
+         <p>Se elabora con hierbas y hojas verdes, se hace con pepitas y otras semillas molidas, chile poblano o cuaresmeño. En esta receta se utiliza tanto la pepita (semilla de calabaza) como las hojas verdes y el resultado es un guiso que sorprende por su complejidad, aunque hay otra variedad de Mole Verde el caldoso hecho con salsa verde, acompañado de calabacitas, ejotes, habas verdes y carne de res, pollo o puerco.</p>
+         </div>
+    <div>
+       <img src="imagenes/3.7.png" width="100%" height="40%"> 
+       </div>
+    </div>
+    </div>
+  <!--final-->
+    <!--nicio-->
+  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Adobo</h1>
+         <div>
+         <p>Elaborado con especias, chiles anchos, guajillo, ajos, hoja de aguacate este platillo deleita a los más exigentes paladares y es considerado dentro de la gastronomía mexicana uno de los platillos que no puede faltar para probar.</p>
+         </div>
+    <div>
+       <img src="imagenes/3.8.png" width="100%" height="40%"> 
+       </div>
+    </div>
+    </div>
+  <!--final-->  
+   <!--nicio-->
+  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Chiles en Nogada</h1>
+         <div>
+         <p>Platillo de temporada que envuelve parte de la historia y triunfo de nuestro México.
+Representativo del estado de Puebla, tiene su origen en los tiempos de Independencia en homenaje a Agustín de Iturbide. Los colores de la bandera se aprecian con armonía y perfección en este manjar por los meses de julio y agosto, ya que sus ingredientes que utilizan para el relleno se producen solo en esta temporada.</p>
+         </div>
+    <div>
+       <img src="imagenes/3.9.png" width="100%" height="40%"> 
+       </div>
+    </div>
+    </div>
+  <!--final-->  
+         </div>
+    <div> </div>
+    </div>
+    </div>
+<!--final colapsible-->
+
+  <!--inicio colapsible-->
+  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Antojitos.</h1>
+         <div>
+  <!--inicio-->
+  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Cemitas.</h1>
+         <div>
+         <p>Un crujiente y dorado pan redondo con ajonjolí en decoración es la cubierta de ingredientes comunes como el quesillo, pápalo, chipotle, cebolla, aguacate, aceite de olivo y según el gusto milanesa, “carnitas”, pata, jamón o carne enchilada que en conjunto dan origen al suculento plato de la región similar a la torta.</p>
+         </div>
+    <div>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image32','','imagenes/3.11.png',1)"><img src="imagenes/3.10.png" width="100%" height="40%" id="Image4"></a> </div>
+    </div>
+    </div>
+  <!--final-->  
+  <!--nicio-->
+  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Chalupas.</h1>
+         <div>
+         <p>Las chalupas son tortillas fritas cubiertas de salsa, cebolla y carne de res/puerco/pollo deshebrada con salsa roja o verde, una verdadera delicia</p>
+         </div>
+    <div>
+       <img src="imagenes/3.12.png" width="100%" height="40%"> 
+       </div>
+    </div>
+    </div>
+  <!--final-->  
+      <!--nicio-->
+  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Pambazos.</h1>
+         <div>
+         <p>Es un pan completamente liso parecido a la telera (bollo) rellena de chorizo o longaniza y posteriormente bañada en salsa de chile guajillo o ancho, listo para satisfacer tu paladar.</p>
+         </div>
+    <div>
+       <img src="imagenes/3.13.png" width="100%" height="40%"> 
+       </div>
+    </div>
+    </div>
+  <!--final-->
+    <!--nicio-->
+  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Tostadas.</h1>
+         <div>
+         <p>Este es un antojito que se aprecia por su fácil preparación y gran satisfacción en su sabor, siendo una sencilla tortilla frita se perfecciona añadiendo frijoles, lechuga, queso, crema, salsa y complementando su mismo nombre, un ingrediente electo por su degustador, el cual puede ser pollo, lengua, pata o quesillo.</p>
+         </div>
+    <div>
+       <img src="imagenes/3.14.png" width="100%" height="40%"> 
+       </div>
+    </div>
+    </div>
+  <!--final-->  
+   <!--inicio-->
+  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Tamales.</h1>
+         <div>
+<p><b><i>-De Comino tradicional de la región de Atlixco</i></b>: elaborado con maíz, jitomate y guajillo para la salsa, manteca y cominos el cual le da ese sabor muy especial.</p>
+<p><b><i>-De canario</i></b>; estos tamales se preparan con harina de arroz, mantequilla, azúcar y yemas de huevo. Es una receta diferente a la de los tamales tradicionales.</p>
+         </div>
+    <div>
+       <img src="imagenes/3.15.png" width="100%" height="40%"> 
+       </div>
+    </div>
+    </div>
+  <!--final-->  
+   <!--inicio-->
+  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Atole de Cacahuate.</h1>
+         <div>
+<p>El gusto por el atole recibe una recompensa con este de cacahuate, que aporta algo diferente. Ideal para comer unos tamales, e incluso un pan de agua, hojaldra o cuernitos. Claro es para una reunión familiar o fiesta, elaborado con masa, leche y cacahuate.</p>
+         </div>
+    <div>
+       <img src="imagenes/3.16.png" width="100%" height="40%"> 
+       </div>
+    </div>
+    </div>
+  <!--final-->
+         </div>
+    <div> </div>
+    </div>
+    </div>
+<!--final colapsible-->
+
+ <!--inicio colapsible-->
+  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Postres.</h1>
+         <div>
+          <!--inicio-->
+  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Jeripa.</h1>
+         <div>
+<p>Postre tradicional y originario de Atlixco, está elaborado con harina de arroz, leche, yemas de huevo y piñón, donde el resultado es una crema de arroz que es adornada con ajonjolí y pasas, se elabora para la fiesta de Corpus y Semana Santa.
+</p>
+         </div>
+    <div>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image32','','imagenes/3.18.png',1)"><img src="imagenes/3.17.png" width="100%" height="40%" id="Image5"></a> </div>
+    </div>
+    </div>
+  <!--final-->
+ <!--inicio-->
+  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Dulce de Calabaza y Tejocote; y Camote.</h1>
+         <div>
+<p>Este postre, común en otoño y frecuentemente parte de la celebración de Día de Muertos, se hace en México con la calabaza de cáscara dura y pulpa de color café claro, de igual forma el dulce de Tejocote que se hierve con canela y piloncillo hasta obtener ese espesor que lo hacen un ícono de la tradición casera.</p>
+         </div>
+    <div>
+       <img src="imagenes/3.19.png" width="100%" height="40%"> 
+       </div>
+    </div>
+    </div>
+  <!--final-->
+         </div>
+    <div> </div>
+    </div>
+    </div>
+  <!--final colapsible-->
+     </div>
+    </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+   <div>
+      <h4>¿Qué estás esperando?, ¡VISITA ATLIXCO!</h4>
+     <h4>Ramírez Rojas Javier</h4>
+   </div>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"data-back-btn-theme="a">
+    <h1>SITIOS ATRACTIVOS.</h1>
+    </div>
+   <div data-role="content" align="justify">
+    <div>
+     <!--inicio-->
+  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Convento e Iglesia de la Merced.</h1>
+         <div>
+<p>con una fachada con puerta en estilo barroco de argamasa, está repleta de adornos vegetales que enmarcan unos enconchados nichos. Además, cuenta con un armonioso campanario de dos cuerpos con cupulín; en esta destaca el altar mayor, el cual tiene un retablo neoclásico y un ciprés de la Virgen. Además se aprecian bellos lienzos al óleo posiblemente del siglo XVII o XVIII.</p>
+         </div>
+    <div>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image32','','imagenes/4.2.png',1)"><img src="imagenes/4.1.png" width="100%" height="40%" id="Image6"></a> </div>
+    </div>
+    </div>
+  <!--final-->
+      <!--inicio-->
+  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Iglesia de San Agustín.</h1>
+         <div>
+<p>La cual tiene un reducido atrio circundado por una barda con rejas de hierro forjado. Por su posición en la esquina, presenta dos fachadas de estilo barroco de argamasa, al igual que el campanario, el interior tiene forma de cruz latina, cubierta con bóvedas y una cúpula octagonal con ventanas, la decoración que predomina es neoclásica. Es digno de admirarse el retablo mayor del presbiterio. En los muros de la capilla anexa hay pinturas de óleo de Juan Carrera, los cuales representan la adoración de Los Reyes y la Huida de Egipto.</p>
+         </div>
+    <div>
+       <img src="imagenes/4.3.png" width="100%" height="40%"> 
+       </div>
+    </div>
+    </div>
+  <!--final-->
+     <!--inicio-->
+  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Capilla del Tercer Orden.</h1>
+         <div>
+<p>Cuenta con excelentes portadas barrocas de argamasa. Asimismo, se pueden observar columnas salomónicas así como las de fuste trenzado y adornos vegetalizados. En el presbiterio hay un magnífico retablo dorado estilo barroco salomónico y tiene pinturas de Jerónimo de Zendejas, la cuales representan pasajes de la vida de San Francisco. (Las torres salomónicas tienen antecedente bíblico, ya que provienen del templo que Salomón).</p>
+         </div>
+    <div>
+       <img src="imagenes/4.4.png" width="100%" height="40%"> 
+       </div>
+    </div>
+    </div>
+  <!--final-->
+   <!--inicio-->
+  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Hospital de San Juan de Dios</h1>
+         <div>
+<p>Es considerado el primer hospital de Atlixco, construido a finales del S. XVI, en un inicio funcionó para atender a los habitantes de la población, posteriormente en el S. XVIII pasa a manos de los frailes de San Juan de Dios. El hospital posee un atrio y una pequeña iglesia anexa. El claustro es de dos niveles y en sus fachadas se combina el labrado de cantera y el trabajo de argamasa. 
+<p>El patio central luce un bello jardín con una fuente octagonal. </p>
+<p>El hospital alberga en su interior una Pinacoteca con más de 50 obras de temas religiosos de los siglos XVII y XVIII, conserva óleos sobre tela de Pablo de Talavera y Luis Barruecos.</p>
+         </div>
+    <div>
+       <img src="imagenes/4.5.png" width="100%" height="40%"> 
+       </div>
+    </div>
+    </div>
+  <!--final-->
+ </div>
+   </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+  <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+   <div>
+      <h4>¿Qué estás esperando?, ¡VISITA ATLIXCO!</h4>
+     <h4>Ramírez Rojas Javier</h4>
+   </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"data-back-btn-theme="a">
+    <h1>CLIMA.</h1>
+    </div>
+   <div data-role="content" align="justify">
+   <div>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image32','','imagenes/5.2.png',1)"><img src="imagenes/5.1.png" width="100%" height="40%" id="Image7"></a> </div>
+    <div>
+   <p>Goza de un clima privilegiado por lo que el lema de la ciudad es <b><i>"el mejor clima del mundo"</i></b>. En el territorio del municipio se presenta la transición entre los climas templados del norte del estado y los cálidos del sur; presenta dos variantes de clima: templado y cálido.</p>
+<p><b>Clima templado subhúmedo con lluvias en verano:</b> Este clima es característico de las áreas montañosas del Noroeste, es decir de las estribaciones de la Sierra Nevada.</p>
+<p><b>Clima semicálido subhúmedo con lluvias en verano:</b> Este clima se localiza al centro y sur ocupando la mayor parte del municipio. </p>
+<p><b>Clima templado subhúmedo con lluvias en verano:</b> Se localiza al sureste y extremo noroeste, en las zonas montañosas.</p>
+  </div>
+  </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+ <div>
+   <img src="res/android/mdpi.png" width="46" height="46">
+   </div>  
+   <div>
+      <h4>¿Qué estás esperando?, ¡VISITA ATLIXCO!</h4>
+     <h4>Ramírez Rojas Javier</h4>
+   </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"data-back-btn-theme="a">
+    <h1>Declaración de Pueblo Mágico.</h1>
+    </div>
+   <div data-role="content" align="justify">
+    <div>
+    <h2>Atlixco, Pueblo Mágico.</h2>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image33','','imagenes/6.2.png',1)"><img src="imagenes/6.1.png" width="100%" height="40%" id="Image8"></a>
+<p>En 2015, 28 localidades fueron nombradas Pueblos Mágico. Dentro de ellas se ecuentra Atlixco: por sus características únicas en artesanía, tradición, gastronomía, cultura y agricultura.</p>
+<p>El 5 de mayo de 1988, el gobierno del Estado de Puebla, mediante decreto, declaró a la ciudad de Atlixco, Zona Típica Monumental.</p>
+     </div>
+    </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+   <div>
+      <h4>¿Qué estás esperando?, ¡VISITA ATLIXCO!</h4>
+     <h4>Ramírez Rojas Javier</h4>
+   </div>
+</div>
+</div>
+                                    
+</body>
+</html>
